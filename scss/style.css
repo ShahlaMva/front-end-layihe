@@ -1,0 +1,965 @@
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden; }
+
+#contact-icon {
+  height: 40px; }
+  #contact-icon .contact a {
+    color: #565656;
+    font-size: 12px;
+    margin-left: 14px; }
+    #contact-icon .contact a:hover {
+      text-decoration: none;
+      color: #007bff; }
+  #contact-icon .icons a {
+    color: #565656;
+    margin-right: 14px; }
+
+header nav {
+  height: 70px; }
+  header nav img {
+    width: auto;
+    height: 80px; }
+  header nav #navbarNavAltMarkup .dropdown-menu {
+    margin-top: 0;
+    font-size: 13px;
+    margin: 14px; }
+  header nav #navbarNavAltMarkup .layout:hover .dropdown-menu {
+    display: block !important; }
+  header nav #navbarNavAltMarkup .features:hover .dropdown-menu {
+    display: block; }
+  header nav #navbarNavAltMarkup .element:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; }
+  header nav #navbarNavAltMarkup .element .dropdown-menu {
+    position: absolute;
+    left: -800%;
+    min-width: 60rem;
+    width: 1140px;
+    text-align: left;
+    display: none; }
+    header nav #navbarNavAltMarkup .element .dropdown-menu .col-lg-2 ul {
+      padding: 0; }
+    header nav #navbarNavAltMarkup .element .dropdown-menu .col-lg-2 li {
+      list-style: none; }
+      header nav #navbarNavAltMarkup .element .dropdown-menu .col-lg-2 li a {
+        color: #444; }
+        header nav #navbarNavAltMarkup .element .dropdown-menu .col-lg-2 li a:hover {
+          text-decoration: none;
+          color: blue; }
+    header nav #navbarNavAltMarkup .element .dropdown-menu .content-mega {
+      padding: 20px;
+      line-height: 40px; }
+header .pages:hover .dropdown-menu {
+  display: block; }
+header .portfolio:hover .dropdown-menu {
+  display: block; }
+header .portfolio .dropdown-menu {
+  position: absolute;
+  left: -1000%;
+  min-width: 60rem;
+  width: 1140px;
+  text-align: left;
+  display: none; }
+  header .portfolio .dropdown-menu .col-lg-2 ul {
+    padding: 0; }
+  header .portfolio .dropdown-menu .col-lg-2 li {
+    list-style: none; }
+    header .portfolio .dropdown-menu .col-lg-2 li a {
+      color: #444; }
+      header .portfolio .dropdown-menu .col-lg-2 li a:hover {
+        text-decoration: none;
+        color: blue; }
+  header .portfolio .dropdown-menu .content-mega {
+    padding: 20px;
+    line-height: 40px; }
+
+main #picker .left-nav label {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase; }
+main #picker .left-nav ul {
+  padding: 0px !important; }
+  main #picker .left-nav ul li {
+    list-style: none; }
+    main #picker .left-nav ul li a {
+      color: #565656;
+      font-size: 14px; }
+      main #picker .left-nav ul li a:hover {
+        text-decoration: none;
+        color: #2250fc; }
+main #title {
+  position: relative;
+  background: #f8f9fa;
+  height: 300px; }
+  main #title .title {
+    position: absolute;
+    left: 40%;
+    top: 35%; }
+    main #title .title h6 {
+      font-size: 13px;
+      color: #565656; }
+    main #title .title a {
+      color: #565656;
+      font-size: 12px; }
+      main #title .title a:hover {
+        text-decoration: none;
+        color: #007bff; }
+    main #title .title span {
+      color: #565656;
+      font-size: 12px; }
+main #forms hr {
+  margin-top: 60px; }
+main #forms .container .row .col-9 {
+  margin-top: 20px; }
+  main #forms .container .row .col-9 .forms form h4 {
+    font-weight: 500; }
+  main #forms .container .row .col-9 .forms form label {
+    text-transform: uppercase;
+    font-size: 12px; }
+  main #forms .container .row .col-9 .forms form input {
+    font-size: 12px; }
+  main #forms .container .row .col-9 .forms form .input-group-text {
+    background: white;
+    color: black;
+    font-weight: 600; }
+  main #forms .container .row .col-9 .forms .textual {
+    margin-top: 50px; }
+    main #forms .container .row .col-9 .forms .textual h4 {
+      font-weight: 500; }
+    main #forms .container .row .col-9 .forms .textual .row {
+      margin-top: 20px; }
+      main #forms .container .row .col-9 .forms .textual .row .col-2 {
+        font-weight: 200;
+        font-size: 12px; }
+      main #forms .container .row .col-9 .forms .textual .row .col-10 input {
+        font-size: 12px; }
+  main #forms .container .row .col-9 .forms .simple-form h4 {
+    margin-top: 40px;
+    font-weight: 500; }
+  main #forms .container .row .col-9 .forms .simple-form label {
+    font-size: 12px; }
+  main #forms .container .row .col-9 .forms .simple-form input {
+    font-size: 12px; }
+  main #forms .container .row .col-9 .forms .simple-form small {
+    font-size: 11px; }
+  main #forms .container .row .col-9 .forms .addons-prepend h4 {
+    margin-top: 40px;
+    font-weight: 500; }
+  main #forms .container .row .col-9 .forms .addons-prepend input {
+    font-size: 12px; }
+  main #forms .container .row .col-9 .forms .addons-prepend .input-group-text {
+    padding: 7px;
+    padding-bottom: 0;
+    background: #e9ecef;
+    border-color: #e9ecef; }
+  main #forms .container .row .col-9 .forms .addons-prepend span {
+    padding-bottom: 9px;
+    font-size: 12px; }
+  main #forms .container .row .col-9 .forms .addons-prepend label {
+    font-size: 12px; }
+  main #forms .container .row .col-9 .forms .form-sizing h4 {
+    margin-top: 40px;
+    font-weight: 500; }
+  main #forms .container .row .col-9 .forms .form-sizing input {
+    width: 50%;
+    margin: 10px;
+    border-color: #ececec;
+    font-size: 14px; }
+  main #forms .container .row .col-9 .forms .readonly h4 {
+    margin-top: 50px;
+    font-weight: 500; }
+  main #forms .container .row .col-9 .forms .readonly .form-check {
+    font-size: 14px; }
+  main #forms .container .row .col-9 .forms .form-grids h4 {
+    margin-top: 50px;
+    font-weight: 500; }
+  main #forms .container .row .col-9 .forms .horizontal-forms h4 {
+    margin-top: 50px;
+    font-weight: 500; }
+main #forms .container .left-nav label {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase; }
+main #forms .container .left-nav ul {
+  padding: 0px !important; }
+  main #forms .container .left-nav ul li {
+    list-style: none; }
+    main #forms .container .left-nav ul li a {
+      color: #565656;
+      font-size: 14px; }
+      main #forms .container .left-nav ul li a:hover {
+        text-decoration: none;
+        color: #2250fc; }
+main #forms .container .accordions {
+  margin-bottom: 70px; }
+  main #forms .container .accordions hr {
+    margin-top: 60px; }
+  main #forms .container .accordions .default h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1f1f1f; }
+  main #forms .container .accordions .default h6 {
+    margin: 10px;
+    font-size: 13px;
+    color: #1f1f1f;
+    position: relative;
+    cursor: pointer; }
+    main #forms .container .accordions .default h6 span {
+      position: absolute;
+      right: 4px;
+      font-size: 14px; }
+  main #forms .container .accordions .default .content {
+    display: none; }
+    main #forms .container .accordions .default .content p {
+      font-size: 13.6px;
+      font-weight: 400;
+      color: #777;
+      margin-left: 10px; }
+  main #forms .container .accordions .default .border {
+    margin-top: 16px;
+    border-radius: 4px; }
+  main #forms .container .accordions .shadow-acc {
+    margin-top: 40px; }
+    main #forms .container .accordions .shadow-acc h4 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #1f1f1f; }
+    main #forms .container .accordions .shadow-acc h6 {
+      margin: 10px;
+      font-size: 13px;
+      color: #1f1f1f;
+      position: relative;
+      cursor: pointer; }
+      main #forms .container .accordions .shadow-acc h6 span {
+        position: absolute;
+        right: 4px;
+        font-size: 14px; }
+    main #forms .container .accordions .shadow-acc .content {
+      display: none; }
+      main #forms .container .accordions .shadow-acc .content p {
+        font-size: 13.6px;
+        font-weight: 400;
+        color: #777;
+        margin-left: 10px; }
+    main #forms .container .accordions .shadow-acc .border {
+      margin-top: 16px;
+      border-radius: 4px; }
+  main #forms .container .accordions .with-icon {
+    margin-top: 40px; }
+    main #forms .container .accordions .with-icon h4 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #1f1f1f; }
+    main #forms .container .accordions .with-icon h6 {
+      margin: 10px;
+      font-size: 13px;
+      color: #1f1f1f;
+      position: relative;
+      cursor: pointer; }
+      main #forms .container .accordions .with-icon h6 span {
+        position: absolute;
+        right: 4px;
+        font-size: 14px; }
+    main #forms .container .accordions .with-icon .content {
+      display: none; }
+      main #forms .container .accordions .with-icon .content p {
+        font-size: 13.6px;
+        font-weight: 400;
+        color: #777;
+        margin-left: 10px; }
+    main #forms .container .accordions .with-icon .border {
+      background: white;
+      margin-top: 16px;
+      border-radius: 4px; }
+  main #forms .container .accordions .simple {
+    margin-top: 40px; }
+    main #forms .container .accordions .simple h4 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #1f1f1f; }
+    main #forms .container .accordions .simple h6 {
+      margin: 10px;
+      font-size: 13px;
+      color: #1f1f1f;
+      position: relative;
+      cursor: pointer; }
+      main #forms .container .accordions .simple h6 span {
+        position: absolute;
+        right: 4px;
+        font-size: 14px; }
+    main #forms .container .accordions .simple .content {
+      display: none; }
+      main #forms .container .accordions .simple .content p {
+        font-size: 13.6px;
+        font-weight: 400;
+        color: #777;
+        margin-left: 10px; }
+    main #forms .container .accordions .simple .border {
+      margin-top: 16px;
+      border-radius: 4px; }
+  main #forms .container .accordions .flat {
+    margin-top: 40px; }
+    main #forms .container .accordions .flat h4 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #1f1f1f; }
+    main #forms .container .accordions .flat h6 {
+      font-size: 13px;
+      margin-bottom: 20px;
+      color: #1f1f1f;
+      position: relative;
+      cursor: pointer; }
+      main #forms .container .accordions .flat h6 span {
+        position: absolute;
+        right: 4px;
+        font-size: 14px; }
+    main #forms .container .accordions .flat .content {
+      display: none; }
+      main #forms .container .accordions .flat .content p {
+        font-size: 13.6px;
+        font-weight: 400;
+        color: #777;
+        margin-left: 0; }
+    main #forms .container .accordions .flat .border {
+      margin-top: 16px;
+      border-radius: 4px; }
+  main #forms .container .accordions .dark {
+    margin-top: 40px; }
+    main #forms .container .accordions .dark h4 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #1f1f1f; }
+    main #forms .container .accordions .dark h6 {
+      margin: 10px;
+      font-size: 13px;
+      color: #1f1f1f;
+      position: relative;
+      cursor: pointer;
+      color: #fff; }
+      main #forms .container .accordions .dark h6 span {
+        position: absolute;
+        right: 4px;
+        font-size: 14px; }
+    main #forms .container .accordions .dark .content {
+      display: none; }
+      main #forms .container .accordions .dark .content p {
+        font-size: 13.6px;
+        font-weight: 400;
+        color: #fff;
+        margin-left: 10px; }
+    main #forms .container .accordions .dark .border {
+      background: #333;
+      margin-top: 16px;
+      border-radius: 4px; }
+  main #forms .container .accordions .with-theme {
+    margin-top: 40px; }
+    main #forms .container .accordions .with-theme h4 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #1f1f1f; }
+    main #forms .container .accordions .with-theme h6 {
+      margin: 10px;
+      font-size: 13px;
+      color: #1f1f1f;
+      position: relative;
+      cursor: pointer;
+      color: #fff; }
+      main #forms .container .accordions .with-theme h6 span {
+        position: absolute;
+        right: 4px;
+        font-size: 14px; }
+    main #forms .container .accordions .with-theme .content {
+      display: none; }
+      main #forms .container .accordions .with-theme .content p {
+        font-size: 13.6px;
+        font-weight: 400;
+        color: #fff;
+        margin-left: 10px; }
+    main #forms .container .accordions .with-theme .border {
+      background: #2250fc;
+      margin-top: 16px;
+      border-radius: 4px; }
+main #accordion .container .row {
+  margin-top: 20px; }
+  main #accordion .container .row .left-nav label {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase; }
+  main #accordion .container .row .left-nav ul {
+    padding: 0px !important; }
+    main #accordion .container .row .left-nav ul li {
+      list-style: none; }
+      main #accordion .container .row .left-nav ul li a {
+        color: #565656;
+        font-size: 14px; }
+        main #accordion .container .row .left-nav ul li a:hover {
+          text-decoration: none;
+          color: #2250fc; }
+  main #accordion .container .row .accordions {
+    margin-bottom: 70px; }
+    main #accordion .container .row .accordions hr {
+      margin-top: 60px; }
+    main #accordion .container .row .accordions .default h4 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #1f1f1f; }
+    main #accordion .container .row .accordions .default h6 {
+      margin: 10px;
+      font-size: 13px;
+      color: #1f1f1f;
+      position: relative;
+      cursor: pointer; }
+      main #accordion .container .row .accordions .default h6 span {
+        position: absolute;
+        right: 4px;
+        font-size: 14px; }
+    main #accordion .container .row .accordions .default .content {
+      display: none; }
+      main #accordion .container .row .accordions .default .content p {
+        font-size: 13.6px;
+        font-weight: 400;
+        color: #777;
+        margin-left: 10px; }
+    main #accordion .container .row .accordions .default .border {
+      margin-top: 16px;
+      border-radius: 4px; }
+    main #accordion .container .row .accordions .shadow-acc {
+      margin-top: 40px; }
+      main #accordion .container .row .accordions .shadow-acc h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1f1f1f; }
+      main #accordion .container .row .accordions .shadow-acc h6 {
+        margin: 10px;
+        font-size: 13px;
+        color: #1f1f1f;
+        position: relative;
+        cursor: pointer; }
+        main #accordion .container .row .accordions .shadow-acc h6 span {
+          position: absolute;
+          right: 4px;
+          font-size: 14px; }
+      main #accordion .container .row .accordions .shadow-acc .content {
+        display: none; }
+        main #accordion .container .row .accordions .shadow-acc .content p {
+          font-size: 13.6px;
+          font-weight: 400;
+          color: #777;
+          margin-left: 10px; }
+      main #accordion .container .row .accordions .shadow-acc .border {
+        margin-top: 16px;
+        border-radius: 4px; }
+    main #accordion .container .row .accordions .with-icon {
+      margin-top: 40px; }
+      main #accordion .container .row .accordions .with-icon h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1f1f1f; }
+      main #accordion .container .row .accordions .with-icon h6 {
+        margin: 10px;
+        font-size: 13px;
+        color: #1f1f1f;
+        position: relative;
+        cursor: pointer; }
+        main #accordion .container .row .accordions .with-icon h6 span {
+          position: absolute;
+          right: 4px;
+          font-size: 14px; }
+      main #accordion .container .row .accordions .with-icon .content {
+        display: none; }
+        main #accordion .container .row .accordions .with-icon .content p {
+          font-size: 13.6px;
+          font-weight: 400;
+          color: #777;
+          margin-left: 10px; }
+      main #accordion .container .row .accordions .with-icon .border {
+        background: white;
+        margin-top: 16px;
+        border-radius: 4px; }
+    main #accordion .container .row .accordions .simple {
+      margin-top: 40px; }
+      main #accordion .container .row .accordions .simple h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1f1f1f; }
+      main #accordion .container .row .accordions .simple h6 {
+        margin: 10px;
+        font-size: 13px;
+        color: #1f1f1f;
+        position: relative;
+        cursor: pointer; }
+        main #accordion .container .row .accordions .simple h6 span {
+          position: absolute;
+          right: 4px;
+          font-size: 14px; }
+      main #accordion .container .row .accordions .simple .content {
+        display: none; }
+        main #accordion .container .row .accordions .simple .content p {
+          font-size: 13.6px;
+          font-weight: 400;
+          color: #777;
+          margin-left: 10px; }
+      main #accordion .container .row .accordions .simple .border {
+        margin-top: 16px;
+        border-radius: 4px; }
+    main #accordion .container .row .accordions .flat {
+      margin-top: 40px; }
+      main #accordion .container .row .accordions .flat h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1f1f1f; }
+      main #accordion .container .row .accordions .flat h6 {
+        font-size: 13px;
+        margin-bottom: 20px;
+        color: #1f1f1f;
+        position: relative;
+        cursor: pointer; }
+        main #accordion .container .row .accordions .flat h6 span {
+          position: absolute;
+          right: 4px;
+          font-size: 14px; }
+      main #accordion .container .row .accordions .flat .content {
+        display: none; }
+        main #accordion .container .row .accordions .flat .content p {
+          font-size: 13.6px;
+          font-weight: 400;
+          color: #777;
+          margin-left: 0; }
+      main #accordion .container .row .accordions .flat .border {
+        margin-top: 16px;
+        border-radius: 4px; }
+    main #accordion .container .row .accordions .dark {
+      margin-top: 40px; }
+      main #accordion .container .row .accordions .dark h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1f1f1f; }
+      main #accordion .container .row .accordions .dark h6 {
+        margin: 10px;
+        font-size: 13px;
+        color: #1f1f1f;
+        position: relative;
+        cursor: pointer;
+        color: #fff; }
+        main #accordion .container .row .accordions .dark h6 span {
+          position: absolute;
+          right: 4px;
+          font-size: 14px; }
+      main #accordion .container .row .accordions .dark .content {
+        display: none; }
+        main #accordion .container .row .accordions .dark .content p {
+          font-size: 13.6px;
+          font-weight: 400;
+          color: #fff;
+          margin-left: 10px; }
+      main #accordion .container .row .accordions .dark .border {
+        background: #333;
+        margin-top: 16px;
+        border-radius: 4px; }
+    main #accordion .container .row .accordions .with-theme {
+      margin-top: 40px; }
+      main #accordion .container .row .accordions .with-theme h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #1f1f1f; }
+      main #accordion .container .row .accordions .with-theme h6 {
+        margin: 10px;
+        font-size: 13px;
+        color: #1f1f1f;
+        position: relative;
+        cursor: pointer;
+        color: #fff; }
+        main #accordion .container .row .accordions .with-theme h6 span {
+          position: absolute;
+          right: 4px;
+          font-size: 14px; }
+      main #accordion .container .row .accordions .with-theme .content {
+        display: none; }
+        main #accordion .container .row .accordions .with-theme .content p {
+          font-size: 13.6px;
+          font-weight: 400;
+          color: #fff;
+          margin-left: 10px; }
+      main #accordion .container .row .accordions .with-theme .border {
+        background: #2250fc;
+        margin-top: 16px;
+        border-radius: 4px; }
+main #slider #carouselExampleIndicators .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(230, 230, 230, 0.103); }
+main #slider #carouselExampleIndicators img {
+  width: 100%;
+  height: auto;
+  position: relative; }
+main #slider #carouselExampleIndicators .carousel-item .container .row .col-12 {
+  width: 85%;
+  vertical-align: middle;
+  position: absolute;
+  top: 25%; }
+  main #slider #carouselExampleIndicators .carousel-item .container .row .col-12 .content-text h1 {
+    font-size: 70px;
+    color: white;
+    font-weight: 600; }
+  main #slider #carouselExampleIndicators .carousel-item .container .row .col-12 .content-text p {
+    color: white;
+    font-size: 17px; }
+  main #slider #carouselExampleIndicators .carousel-item .container .row .col-12 .content-text a {
+    color: white;
+    background: #007bff;
+    padding: 9px;
+    border-radius: 3px; }
+    main #slider #carouselExampleIndicators .carousel-item .container .row .col-12 .content-text a:hover {
+      text-decoration: none;
+      background: #2250fc; }
+main #slider #carouselExampleIndicators .carousel-item .container .content-two {
+  width: 70%;
+  height: 500px;
+  position: absolute;
+  top: 25%; }
+  main #slider #carouselExampleIndicators .carousel-item .container .content-two h1 {
+    font-size: 80px;
+    color: white;
+    font-weight: 600; }
+  main #slider #carouselExampleIndicators .carousel-item .container .content-two p {
+    color: white;
+    font-size: 19px; }
+  main #slider #carouselExampleIndicators .carousel-item .container .content-two a {
+    color: white;
+    background: #007bff;
+    padding: 9px;
+    border-radius: 3px; }
+    main #slider #carouselExampleIndicators .carousel-item .container .content-two a:hover {
+      text-decoration: none;
+      background: #2250fc; }
+main #welcome .container .title {
+  position: relative;
+  top: 60px;
+  margin-top: 90px; }
+  main #welcome .container .title h1 {
+    font-size: 48px; }
+  main #welcome .container .title h5 {
+    color: rgba(0, 0, 0, 0.562);
+    font-size: 18px; }
+  main #welcome .container .title hr {
+    width: 10%;
+    height: 1px;
+    background-color: blue; }
+main #welcome .container .welcome-image {
+  position: relative;
+  top: 150px; }
+  main #welcome .container .welcome-image img {
+    margin-top: 30px;
+    width: 100%; }
+main #we-do {
+  background-color: #f7f9fb; }
+  main #we-do .container {
+    margin-top: 90px; }
+    main #we-do .container .title {
+      position: relative;
+      top: 10px; }
+      main #we-do .container .title h5 {
+        color: rgba(0, 0, 0, 0.562);
+        margin-top: 50px;
+        font-size: 18px; }
+      main #we-do .container .title h1 {
+        font-size: 48px; }
+      main #we-do .container .title hr {
+        position: absolute;
+        width: 10%;
+        height: 1px;
+        background-color: blue;
+        left: 18px;
+        top: 50px; }
+  main #we-do .row {
+    margin-top: 50px; }
+    main #we-do .row h6 {
+      color: black;
+      font-size: 20px; }
+    main #we-do .row p {
+      margin-top: 9px;
+      font-size: 15px;
+      color: #565656; }
+    main #we-do .row .col-4 {
+      position: relative;
+      top: 60px; }
+main #recent-work .container {
+  position: relative;
+  margin-top: 90px; }
+  main #recent-work .container h1 {
+    font-size: 48px; }
+  main #recent-work .container hr {
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    background-color: blue;
+    left: 18px;
+    top: 50px; }
+  main #recent-work .container h5 {
+    color: rgba(0, 0, 0, 0.562);
+    margin-top: 50px;
+    font-size: 18px; }
+main #recent-work .row {
+  margin-top: 50px; }
+  main #recent-work .row img {
+    position: relative;
+    width: 100%;
+    transition: 0.7s;
+    margin: auto;
+    cursor: pointer; }
+    main #recent-work .row img:hover {
+      width: 104%; }
+  main #recent-work .row .col-3 {
+    padding: 0px; }
+main #services .container {
+  margin-top: 50px; }
+  main #services .container .title h1 {
+    font-size: 48px; }
+  main #services .container .title hr {
+    width: 10%;
+    height: 1px;
+    background-color: blue; }
+  main #services .container .title h5 {
+    color: rgba(0, 0, 0, 0.562);
+    margin-top: 50px;
+    font-size: 18px; }
+  main #services .container .row {
+    margin-top: 50px; }
+    main #services .container .row .col-4 {
+      position: relative;
+      top: 60px;
+      margin-bottom: 20px; }
+      main #services .container .row .col-4 .content {
+        position: relative;
+        left: 70px; }
+        main #services .container .row .col-4 .content h5 {
+          font-size: 16px;
+          font-weight: 600;
+          color: black; }
+        main #services .container .row .col-4 .content p {
+          color: #777;
+          font-size: 13px; }
+      main #services .container .row .col-4 span {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        font-size: 20px;
+        border: 3px solid black;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.4s; }
+        main #services .container .row .col-4 span:hover {
+          padding-top: 6px;
+          transform: scale(1.7);
+          font-size: 14px; }
+main #results {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../img/background-parallax.jpg);
+  background-size: cover;
+  position: relative; }
+  main #results .container .row .col-3 {
+    margin-top: 140px; }
+    main #results .container .row .col-3 hr {
+      width: 10%;
+      height: 1px;
+      background-color: white; }
+    main #results .container .row .col-3 h1 {
+      color: white; }
+    main #results .container .row .col-3 span {
+      color: white; }
+    main #results .container .row .col-3 p {
+      color: white; }
+main #our-blog {
+  background: #f7f9fb; }
+  main #our-blog .container {
+    margin-top: 50px;
+    position: relative; }
+    main #our-blog .container h1 {
+      font-size: 48px; }
+    main #our-blog .container hr {
+      position: absolute;
+      width: 10%;
+      height: 1px;
+      background-color: blue;
+      left: 18px;
+      top: 50px; }
+    main #our-blog .container h5 {
+      color: rgba(0, 0, 0, 0.562);
+      margin-top: 50px;
+      font-size: 18px; }
+    main #our-blog .container a {
+      font-size: 12px;
+      color: black; }
+      main #our-blog .container a:hover {
+        text-decoration: none;
+        color: blue; }
+        main #our-blog .container a:hover span {
+          margin-left: 5px; }
+  main #our-blog .row {
+    margin-top: 50px; }
+    main #our-blog .row .on-img {
+      position: relative; }
+      main #our-blog .row .on-img b {
+        position: absolute;
+        background: #2250fc;
+        padding: 3px 15px;
+        top: 12px;
+        right: 8px;
+        color: white;
+        font-weight: 100;
+        border-radius: 50px;
+        font-size: 13px; }
+    main #our-blog .row h6 {
+      font-size: 10px;
+      color: #c2c2c2; }
+    main #our-blog .row h5 {
+      margin-top: 20px;
+      color: black;
+      font-weight: 600; }
+    main #our-blog .row p {
+      color: #777; }
+    main #our-blog .row img {
+      margin-bottom: 30px;
+      width: 100%; }
+
+#clients .container {
+  margin-top: 50px; }
+  #clients .container .title h1 {
+    font-size: 48px; }
+  #clients .container .title hr {
+    width: 10%;
+    height: 1px;
+    background-color: blue; }
+  #clients .container .title h5 {
+    color: rgba(0, 0, 0, 0.562);
+    margin-top: 50px;
+    font-size: 18px; }
+
+#our-team {
+  background: #f7f9fb; }
+  #our-team .container .title h1 {
+    font-size: 48px; }
+  #our-team .container .title hr {
+    width: 10%;
+    height: 1px;
+    background-color: blue; }
+  #our-team .container .title h5 {
+    color: rgba(0, 0, 0, 0.562);
+    margin-top: 50px;
+    font-size: 18px; }
+  #our-team .container .row {
+    margin-top: 30px; }
+    #our-team .container .row .col-3 {
+      background: white;
+      margin-bottom: 50px; }
+      #our-team .container .row .col-3 .icons span {
+        height: 30px;
+        width: 30px;
+        border: 1px solid #807878;
+        border-radius: 50%;
+        text-align: center;
+        margin: 3px; }
+        #our-team .container .row .col-3 .icons span i {
+          color: #5a5656;
+          padding: 4px;
+          font-size: 10px; }
+    #our-team .container .row img {
+      width: 100%;
+      border-radius: 5px; }
+    #our-team .container .row b {
+      color: #a79b9b;
+      font-weight: 100;
+      font-size: 12px; }
+    #our-team .container .row h6 {
+      margin-top: 20px; }
+    #our-team .container .row p {
+      margin-top: 14px;
+      color: #777;
+      font-size: 14px; }
+
+#rounded-img .container .row {
+  margin-top: 50px; }
+  #rounded-img .container .row .col-6 {
+    padding: 3px; }
+    #rounded-img .container .row .col-6 img {
+      border-radius: 5px; }
+
+#circle .row {
+  margin-top: 60px; }
+  #circle .row .col-4 img {
+    border-radius: 50%; }
+
+#thumbnail .container .row {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  #thumbnail .container .row .col-4 img {
+    width: 100%; }
+
+#buttons .row {
+  margin-top: 50px; }
+  #buttons .row .col-3 .left-nav label {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase; }
+  #buttons .row .col-3 .left-nav ul {
+    padding: 0px !important; }
+    #buttons .row .col-3 .left-nav ul li {
+      list-style: none; }
+      #buttons .row .col-3 .left-nav ul li a {
+        color: #565656;
+        font-size: 14px; }
+        #buttons .row .col-3 .left-nav ul li a:hover {
+          text-decoration: none;
+          color: #2250fc; }
+  #buttons .row .row .col-9 h6 {
+    font-size: 14px; }
+  #buttons .row .row .col-9 .row .col-3 button {
+    border-radius: 4px; }
+
+footer {
+  background: #f7f9fb; }
+  footer .container .row .content {
+    margin-top: 70px; }
+    footer .container .row .content a {
+      background: #007bff;
+      color: white;
+      padding: 6px;
+      border-radius: 6px;
+      font-size: 13px; }
+      footer .container .row .content a:hover {
+        text-decoration: none;
+        background: #2250fc; }
+    footer .container .row .content h6 {
+      color: #565656;
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-weight: 600; }
+    footer .container .row .content p {
+      font-size: 13px;
+      color: #777;
+      margin: 12px 0 12px 0; }
+  footer .container .col-3 {
+    margin-top: 70px; }
+    footer .container .col-3 h6 {
+      color: #565656;
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-weight: 600; }
+    footer .container .col-3 ul {
+      padding: 0;
+      text-align: start; }
+      footer .container .col-3 ul li {
+        list-style: none;
+        line-height: 42px;
+        font-size: 14px; }
+        footer .container .col-3 ul li a {
+          color: #616060e5;
+          margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
